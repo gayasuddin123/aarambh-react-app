@@ -1,4 +1,5 @@
 import React from 'react';
+import PopupMessage from './popup';
 
 const Blog = () => {
   const blogPosts = [
@@ -33,7 +34,8 @@ const Blog = () => {
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{post.title}</h3>
               <p className="text-gray-700">{post.description}</p>
-              <a href="#" className="block mt-4 text-blue-600 hover:underline">Read more</a>
+              <PopupMessage/>
+              {/* <a href="#" className="block mt-4 text-blue-600 hover:underline">Read more</a> */}
             </div>
           </div>
         ))}
