@@ -6,6 +6,7 @@ import Blog from './component/blogpost'
 import CountdownBanner from './component/Banneruntil'
 import Navbar from './component/Navbar'
 import Banner from './component/Roadmap'
+import Slider from './component/Slider/Slider'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
     <Blog/>
     <Banner/>
     <Testimonials/>
+    <Slider/>
     <Footer/>
     </div>
     </>

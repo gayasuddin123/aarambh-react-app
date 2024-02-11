@@ -1,0 +1,13 @@
+.swiperSlider{
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Slider-main{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
