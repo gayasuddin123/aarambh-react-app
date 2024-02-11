@@ -4,10 +4,11 @@ import Testimonials from './component/testimonials'
 import Footer from './component/Footer'
 import Blog from './component/blogpost'
 import CountdownBanner from './component/Banneruntil'
-
+import Navbar from './component/Navbar'
 function App() {
   return (
     <>
+    <Navbar></Navbar>
     <HeroSection/>
     <CountdownBanner/>
     <Blog/>
