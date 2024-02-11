@@ -11,7 +11,7 @@ const Blog = () => {
     },
     {
       id: 2,
-      title: 'Google Sollution Challenge',
+      title: 'Google Solution Challenge',
       image: 'solution-challenge.jpg',
       description: 'Empower sustainable development through our Android and ML Solution Challenge.',
     },
@@ -33,9 +33,10 @@ const Blog = () => {
             <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{post.title}</h3>
-              <p className="text-gray-700">{post.description}</p>
+              <p className="text-gray-700 mb-4">{post.description}</p>
               <PopupMessage/>
-              {/* <a href="#" className="block mt-4 text-blue-600 hover:underline">Read more</a> */}
+              {/* I have added some margin and padding to the read more link and changed its color to match the theme of the website */}
+              <a href="#" className="block mt-8 text-slate-600 hover:text-slate-300 font-bold py-2 px-4 rounded-full">Read more</a>
             </div>
           </div>
         ))}

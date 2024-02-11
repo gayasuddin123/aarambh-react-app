@@ -4,12 +4,15 @@
   padding: 2rem;
   text-align: center;
 } */
-.app{
+
+.app {
   background-color: aqua;
-   
-} 
+}
+
 h1 {
-  margin: 1rem auto 4rem;
+  /* I have added some margin and padding to the heading element to create more space and balance */
+  margin: 2rem auto 6rem;
+  padding: 1rem;
 }
 
 .product--image {
@@ -21,20 +24,23 @@ h1 {
 .card {
   box-shadow: 0 8px 16px 0 #0000007c;
   max-width: 320px;
-  margin: auto 1rem;
+  /* I have added some margin and padding to the card element to create more space and balance */
+  margin: 2rem auto;
+  padding: 1rem;
   text-align: center;
   font-family: arial;
 }
 
-/* .price {
+.price {
   color: grey;
   font-size: 22px;
-} */
+}
 
 .card button {
   border: none;
   outline: 0;
-  padding: 12px;
+  /* I have increased the padding of the button element to make it more prominent and comfortable */
+  padding: 16px;
   color: white;
   background-color: #000;
   text-align: center;
@@ -43,6 +49,6 @@ h1 {
   font-size: 18px;
 }
 
-.card :hover {
+.card button:hover {
   opacity: 0.7;
 }
