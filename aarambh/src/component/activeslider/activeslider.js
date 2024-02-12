@@ -23,60 +23,43 @@ export const responsive = {
 export const productData = [
   {
     id: 1,
-    imageurl:
-    'arrpic1.jpg',
-    name: " ",
+    imageurl:'5.png ',
+    name: "",
      
-    description: "Some text about the COURSE",
+    description: "Array",
   },
   {
     id: 2,
-    imageurl:
-    'arrpic2.jpg',
-    name: "  ",
+    imageurl:' 1.png ',
+    name: "",
     
-    description: "Some text about the COURSE",
+    description: "Stack",
   },
   {
     id: 3,
-    imageurl:
-    'arrpic3.jpg',
-    name: " ",
-    description: "Some text about the COURSE",
+    imageurl:'2.png ',
+    name: "",
+    description: "Queue",
   },
   {
     id: 4,
-    imageurl:
-    'arrpic4.jpg',
+    imageurl:'4.png',
     name: " ",
      
-    description: "Some text about the COURSE",
+    description: "Linked-List",
   },
   {
     id: 5,
     imageurl:
-    'arrpic5.jpg',
+    '3.png',
     name: " ",
-    description: "Some text about the COURSE",
+    description: "Sorting-Techniques",
   },
   {
     id: 6,
-    imageurl: 'arrpic6.jpg',
+    imageurl: '6.png',
     name: " ",
-    description: "Some text about the COURSE",
+    description: "Tree",
   },
-  {
-    id: 7,
-    imageurl:
-    'arrpic1.jpg',
-    name: " ",
-    description: "Some text about the COURSE",
-  },
-  {
-    id: 8,
-    imageurl:
-    'arrpic2.jpg',
-    name: " ",
-    description: "Some text about the COURSE",
-  },
+
 ];

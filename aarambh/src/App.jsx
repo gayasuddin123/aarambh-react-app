@@ -18,6 +18,7 @@ function App() {
     <Blog/>
     <Banner/>
     <Testimonials/>
+    <div><h2 className="text-3xl md:text-4xl font-bold text-center mb-16 mt-16 p-8">DSA Materials</h2></div>
     <Mainactiveslider/>
     <Footer/>
     </div>

@@ -22,16 +22,14 @@ h1 {
   object-fit: cover;
 }
 .cardMain{ 
-  margin-bottom: 60px;
+  margin-bottom: 30px; /* Adjust this value as per your preference */
 }
 .card {
-  box-shadow: 0 8px 16px 0 #0000007c;
+  box-shadow: 2px;
   max-width: 320px;
   /* I have added some margin and padding to the card element to create more space and balance */
   margin: 2rem auto;
   padding: 1rem;
-  
- 
   text-align: center;
   font-family: arial;
 }
@@ -45,7 +43,7 @@ h1 {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -54,5 +52,5 @@ h1 {
 }
 
 .card button:hover {
-  opacity: 0.7;
+  opacity: 10%;
 }
