@@ -14,7 +14,7 @@ const Footer = () => {
             their learning journey.</p>
         </div>
         <div>
-          <div className="flex space-x-4 flex justify-center mx-8">
+          <div className="flex space-x-4  justify-center mx-8">
             <div>
               <h3 className="text-lg font-semibold mb-4 ">Services</h3>
               <ul>
