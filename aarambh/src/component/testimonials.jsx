@@ -23,10 +23,9 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="bg-gray-100 mx-8 py-20">
-      <div className="container mx-auto px-4">
+    <div className="bg-gray-100 container mx-auto px-8 py-8">
         {/* I have added some margin and padding to the heading element to create more space and balance */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 mt-16 p-8">Testimonials</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-2 mt-8 p-8">Testimonials</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map(testimonial => (
             <div key={testimonial.id} className="bg-white rounded-lg shadow-md p-6">
@@ -40,7 +39,6 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
-    </div>
   );
 };
 

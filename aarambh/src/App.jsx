@@ -7,7 +7,7 @@ import CountdownBanner from './component/Banneruntil'
 import Navbar from './component/Navbar'
 import Banner from './component/Roadmap'
 import Mainactiveslider from './component/activeslider/mainactiveslider'
-// import Slider from './component/Slider/Slider'
+
 function App() {
   return (
     <>
@@ -18,8 +18,10 @@ function App() {
     <Blog/>
     <Banner/>
     <Testimonials/>
-    <div><h2 className="text-3xl md:text-4xl font-bold text-center mb-16 mt-16 p-8">DSA Materials</h2></div>
+    <div className='mr-10 ml-10'>
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mt-8 p-8">DSA Materials</h2>
     <Mainactiveslider/>
+    </div>
     <Footer/>
     </div>
     </>
