@@ -26,8 +26,8 @@ const Blog = () => {
 
   return (
     <div className="bg-gray-100 container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-8">Latest Blog Posts</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <h2 className="text-3xl font-bold mx-8 mb-8">Latest Blog Posts</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 mx-8 gap-8">
         {blogPosts.map(post => (
           <div key={post.id} className="bg-white rounded-lg overflow-hidden shadow-md">
             <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />

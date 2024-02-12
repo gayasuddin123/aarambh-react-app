@@ -39,22 +39,22 @@ const CountdownBanner = () => {
   }
 
   return (
-    <div className="container mx-auto bg-slate-900 mt-2 ">
-      <div className="flex justify-between items-center mx-10" >
-        <div className='md:text-4xl text-white py-4 px-8 text-left'>
-          <h1 className="text-lg md:text-xl">Registration Starts In:</h1>
+    <div className="container mx-auto bg-gray-100 m-4 rounded-md">
+      <div className="flex justify-between items-center mx-8" >
+        <div className='md:text-4xl text-black w-60 py-4 px-8 font-bold text-left'>
+          <h1 className="text-2xl md:text-xl">Registration Starts In:</h1>
         </div>
-        <div className="flex">
-          <div className="bg-slate-900 text-blue-500 font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
+        <div className="flex text-white w-1/2 ">
+          <div className="bg-slate-900  font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
             {timeRemaining.days} <span className="text-xs md:text-lg">Days</span>
           </div>
-          <div className="bg-slate-900 text-blue-500 font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
+          <div className="bg-slate-900  font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
             {timeRemaining.hours} <span className="text-xs md:text-lg">Hours</span>
           </div>
-          <div className="bg-slate-900 text-blue-500 font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
+          <div className="bg-slate-900  font-bold text-xl md:text-2xl rounded-full px-6 py-4 mr-4">
             {timeRemaining.minutes} <span className="text-xs md:text-lg">Minutes</span>
           </div>
-          <div className="bg-slate-900 text-blue-500 font-bold text-2xl md:text-2xl rounded-full px-6 py-4">
+          <div className="bg-slate-900  font-bold text-2xl md:text-2xl rounded-full px-6 py-4">
             {timeRemaining.seconds} <span className="text-xs md:text-lg">Seconds</span>
           </div>
         </div>

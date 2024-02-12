@@ -2,8 +2,8 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="bg-cover bg-center h-screen flex items-center" style={{backgroundImage: 'url("brainstorming-session.jpg")'}}>
-      <div className="container mx-auto px-4 text-center text-white">
+    <div className="bg-cover bg-center h-screen flex items-center " style={{backgroundImage: 'url("brainstorming-session.jpg")'}}>
+      <div className="container px-4 text-center text-white mx-8">
         <h3 className="text-2xl md:text-4xl font-bold leading-tight mb-8 mt-8 p-4">Welcome to</h3>
         <h1 className="text-6xl md:text-8xl font-bold leading-tight mb-8 p-4">AARAMBH</h1>
         <p className="text-lg md:text-xl mb-8 p-4">A community where students learn, code, and innovate together.</p>
