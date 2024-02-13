@@ -43,14 +43,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center mx-8 mt-8">
-          <p>All rights are reserved by ©conceptial 2023</p>
+        <div className="flex justify-between items-center mx-8 mt-8 text-xs ">
+          <div>
+            <p className='sm:inline'>All rights are reserved</p>
+            <p className='sm:inline'> by ©conceptial 2023</p>
+          </div>
           <div className="flex absolute right-0 mx-8">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="mx-3">
-              <img src="githubicon.png" alt="GitHub Logo" className="h-10 w-10" />
+              <img src="githubicon.png" alt="GitHub Logo" className="h-5 w-5 sm:h-10 sm:w-10" />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="mx-3">
-              <img src="LinkedIn_icon.svg.png" alt="LinkedIn Logo" className="h-10 w-10" />
+              <img src="LinkedIn_icon.svg.png" alt="LinkedIn Logo" className="h-5 w-5 sm:h-10 sm:w-10" />
             </a>
           </div>
         </div>

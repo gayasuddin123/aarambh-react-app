@@ -9,8 +9,8 @@ function Navbar() {
 
       <div className=' h-14 bg-slate-800 flex items-center justify-between group '>
         <div className=" text-white block lg:hidden" onClick={() => sethamburgerDropDown(!hamburgerDropDown)} >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-8 ">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-8">
+            <path strokeLinecap="round" strokeLinejoin="round" d={`${hamburgerDropDown === false ? 'M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5' : 'M6 18 18 6M6 6l12 12'}`} />
           </svg>
         </div>
         <div className="hidden gap-5 ml-4 align-middle text-white lg:flex">
@@ -49,7 +49,7 @@ function Navbar() {
           <button className='w-20 h-9 bg-slate-600 hidden lg:block rounded-md hover:bg-slate-300 hover:text-black'>Sign In</button>
         </div>
       </div>
-      <div className={`w-80 ${hamburgerDropDown === false ? 'hidden' : 'z-10'} h-screen absolute transition-all ease-linear duration-500 lg:hidden flex flex-col gap-10  bg-slate-600`}>
+      <div className={`w-80 ${hamburgerDropDown === false ? '-left-[320px]' : 'z-10 left-[0px] transition-all ease-linear duration-500'} h-screen absolute  lg:hidden flex flex-col gap-10  bg-slate-600`}>
         <div className="w-full h-14 bg-slate-900 text-center relative text-white text-lg  border-b-2 cursor-pointer">
           <a href="#" className='absolute left-4 top-2' >Cources</a>
         </div>
