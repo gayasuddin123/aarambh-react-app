@@ -63,7 +63,7 @@ function Navbar() {
           <a href="#" className='absolute left-4 top-2' >Contests</a>
         </div>
         <div className="flex justify-center">
-          <button className='w-60 h-9 bg-slate-900 text-white rounded-md hover:bg-slate-300 hover:text-black'>Sign In
+          <button className='w-32 h-9 sm:w-60 bg-slate-900 text-white rounded-md hover:bg-slate-300 hover:text-black'>Sign In
           </button>
         </div>
       </div>
