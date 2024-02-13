@@ -30,7 +30,7 @@ const Blog = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 mx-8 gap-8">
         {blogPosts.map(post => (
           <div key={post.id} className="bg-white rounded-lg overflow-hidden shadow-md">
-            <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+            <img src={post.image} alt={post.title} className="w-full object-cover" />
             <div className="p-6">
               <h3 className="text-xl font-bold mb-2">{post.title}</h3>
               <p className="text-gray-700 mb-4">{post.description}</p>

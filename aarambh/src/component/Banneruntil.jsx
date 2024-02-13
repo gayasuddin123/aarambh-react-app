@@ -39,8 +39,8 @@ const CountdownBanner = () => {
   }, []);
 
   return (
-    <div className=' mr-6 ml-6'>
-    <div className="bg-slate-300 text-gray-800 px-8 py-4 mt-6 ml-10 mr-10 flex justify-between items-center rounded-full">
+    <div className=' mx-16'>
+    <div className="bg-slate-300 text-gray-800 px-8 py-4 mt-6 flex justify-between items-center rounded-full">
       <div className="text-lg">
         Registration Starts in: <span className="font-bold text-blue-500">{countdown}</span>
       </div>
