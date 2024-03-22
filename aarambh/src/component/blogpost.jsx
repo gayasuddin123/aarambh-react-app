@@ -25,7 +25,8 @@ const Blog = () => {
   ];
 
   return (
-    <div className="bg-gray-100 container mx-auto px-8 py-8">
+    <div className='mx-16 mt-8'>
+    <div className="bg-gray-100 container py-8">
       <h2 className="text-3xl font-bold mx-8 mb-8">Latest Blog Posts</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 mx-8 gap-8">
         {blogPosts.map(post => (
@@ -35,12 +36,11 @@ const Blog = () => {
               <h3 className="text-xl font-bold mb-2">{post.title}</h3>
               <p className="text-gray-700 mb-4">{post.description}</p>
               <PopupMessage/>
-              {/* I have added some margin and padding to the read more link and changed its color to match the theme of the website */}
-              <a href="#" className="block mt-8 text-slate-600 hover:text-slate-300 font-bold py-2 px-4 rounded-full">Read more</a>
             </div>
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
