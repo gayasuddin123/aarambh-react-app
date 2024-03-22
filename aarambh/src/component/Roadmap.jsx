@@ -10,7 +10,7 @@ function Banner() {
     </div>
   );
 }
-
+ 
 function App() {
   return (
     <div>

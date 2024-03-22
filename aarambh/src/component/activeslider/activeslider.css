@@ -29,7 +29,7 @@ h1 {
   max-width: 320px;
   /* I have added some margin and padding to the card element to create more space and balance */
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   font-family: arial;
 }
